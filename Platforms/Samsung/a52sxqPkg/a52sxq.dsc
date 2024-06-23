@@ -27,9 +27,11 @@
   AB_SLOT_SUPPORT                = 0
   HAS_BUILD_IN_KEYBOARD          = 0
 
+  #
   # 0 = SM7325
   # 1 = SM7325-AE
   # 2 = SM7325-AF
+  #
   SOC_TYPE                       = 0
 
 [BuildOptions]
@@ -44,7 +46,7 @@
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
 
   # Device Maintainer
-  gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVendor|L"arminask & CloudSweets"
+  gSiliciumPkgTokenSpaceGuid.PcdDeviceMaintainer|"arminask & CloudSweets"
 
   # CPU Vector Address
   gArmTokenSpaceGuid.PcdCpuVectorBaseAddress|0x9FF8C000
@@ -72,7 +74,7 @@
   gQcomPkgTokenSpaceGuid.PcdRamPartitionBase|0xE7900000
 
   # SD Card Slot
-  gQcomPkgTokenSpaceGuid.PcdSDCardSlotPresent|TRUE
+  gQcomPkgTokenSpaceGuid.PcdInitCardSlot|TRUE
 
   # USB Controller
   gQcomPkgTokenSpaceGuid.PcdStartUsbController|FALSE
