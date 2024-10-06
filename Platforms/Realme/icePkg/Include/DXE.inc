@@ -19,8 +19,9 @@
     INF MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf
     INF MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf
 
-    INF Binaries/ice/QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf
-    INF Binaries/ice/QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf
+    INF EmbeddedPkg/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf
+
+    INF MdeModulePkg/Universal/ResetSystemRuntimeDxe/ResetSystemRuntimeDxe.inf
 
     INF EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf
     INF EmbeddedPkg/MetronomeDxe/MetronomeDxe.inf
@@ -39,14 +40,14 @@
     INF Binaries/ice/QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.inf
     INF Binaries/ice/QcomPkg/Drivers/HWIODxe/HWIODxe.inf
 
-    INF Binaries/ice/MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf
+    INF MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf
+
     INF Binaries/ice/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
     INF Binaries/ice/MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
 
     INF FatPkg/EnhancedFatDxe/Fat.inf
 
-    INF Binaries/ice/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
-    INF Binaries/ice/MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.inf
+    INF MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
 
     INF Binaries/ice/QcomPkg/Drivers/ClockDxe/ClockDxe.inf
     INF Binaries/ice/QcomPkg/Drivers/SdccDxe/SdccDxe.inf
@@ -68,7 +69,7 @@
 
     INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
 
-    INF Binaries/ice/QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.inf
+    INF EmbeddedPkg/SimpleTextInOutSerial/SimpleTextInOutSerial.inf
 
     INF MdeModulePkg/Universal/PrintDxe/PrintDxe.inf
     INF MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf

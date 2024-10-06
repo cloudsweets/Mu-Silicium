@@ -40,13 +40,15 @@ APRIORI DXE {
     INF Binaries/ice/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
     INF Binaries/ice/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
     INF Binaries/ice/QcomPkg/Drivers/I2CDxe/I2CDxe.inf
-    INF Binaries/ice/QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf
+
+    INF MdeModulePkg/Universal/ResetSystemRuntimeDxe/ResetSystemRuntimeDxe.inf
+
     INF Binaries/ice/QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf
 
     INF Binaries/ice/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
     INF Binaries/ice/MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
-    INF Binaries/ice/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
-    INF Binaries/ice/MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.inf
+
+    INF MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
 
     INF Binaries/ice/QcomPkg/Drivers/SdccDxe/SdccDxe.inf
     INF Binaries/ice/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
@@ -73,14 +75,11 @@ APRIORI DXE {
     INF MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf
     INF MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf
 
-    INF Binaries/ice/QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf
-
+    INF EmbeddedPkg/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf
     INF EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf
 
     INF MdeModulePkg/Universal/PrintDxe/PrintDxe.inf
-
-    INF Binaries/ice/MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf
-
+    INF MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf
     INF MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf
     INF MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
 
@@ -117,7 +116,8 @@ APRIORI DXE {
     INF Binaries/ice/QcomPkg/Drivers/GpiDxe/GpiDxe.inf
     INF Binaries/ice/QcomPkg/Drivers/UCDxe/UCDxe.inf
     INF Binaries/ice/QcomPkg/Drivers/RNGDxe/RngDxe.inf
-    INF Binaries/ice/QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.inf
+
+    INF EmbeddedPkg/SimpleTextInOutSerial/SimpleTextInOutSerial.inf
 
     INF MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf
     INF MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.inf
