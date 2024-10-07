@@ -54,7 +54,7 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"9 5G Speed Edition"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"ice"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"9_5G_Speed_Edition_ice"
-  gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"oplus"
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"9 5G Speed Edition"
 
   # Simple FrameBuffer
   gSiliciumPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080

@@ -43,10 +43,9 @@ APRIORI DXE {
     INF Binaries/ice/QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf
     INF Binaries/ice/QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf
 
-    INF Binaries/ice/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
-    INF Binaries/ice/MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
-    INF Binaries/ice/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
-    INF Binaries/ice/MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.inf
+    INF MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
+    INF MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
+    INF MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
 
     INF Binaries/ice/QcomPkg/Drivers/SdccDxe/SdccDxe.inf
     INF Binaries/ice/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
@@ -78,9 +77,7 @@ APRIORI DXE {
     INF EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf
 
     INF MdeModulePkg/Universal/PrintDxe/PrintDxe.inf
-
-    INF Binaries/ice/MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf
-
+    INF MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf
     INF MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf
     INF MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
 
