@@ -89,6 +89,9 @@
     INF Binaries/j706f/QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf
     INF Binaries/j706f/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.inf
 
+    INF Binaries/generic/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf
+    INF Binaries/generic/QcomPkg/Drivers/XhciDxe/XhciDxe.inf
+
     INF MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe.inf
     INF MdeModulePkg/Bus/Usb/UsbKbDxe/UsbKbDxe.inf
     INF MdeModulePkg/Bus/Usb/UsbMouseAbsolutePointerDxe/UsbMouseAbsolutePointerDxe.inf
@@ -104,5 +107,4 @@
     INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
 
     INF Binaries/j706f/QcomPkg/Drivers/PILDxe/PILDxe.inf
-    INF Binaries/j706f/QcomPkg/Application/QcomChargerApp/QcomChargerApp.inf
     INF Binaries/j706f/QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.inf
